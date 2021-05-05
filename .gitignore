@@ -1,0 +1,11 @@
+**/weights
+**/output
+**/ckpt
+**/dlib_model
+**/runs
+**/_imgs_face.npy
+
+**/.DS_Store
+**/._.DS_Store
+
+icpr2020dfdc/.fuse_hidden0000000700000001

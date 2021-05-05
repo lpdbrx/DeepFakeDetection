@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python : Fichier actuel",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--net", "EfficientNetB4",
+                     "--traindb", "dfdc-35-5-10",
+                     "--valdb", "dfdc-35-5-10",
+                     "--dfdc_faces_df_path", "/Users/lpdbrx/Desktop/EPFL/MA2c/DeepFakeDetection.nosync/icpr2020dfdc-master/output/dfdc/dfs/from_video_0_to_video_0.pkl",
+                     "--dfdc_faces_dir", "/Users/lpdbrx/Desktop/EPFL/MA2c/DeepFakeDetection.nosync/icpr2020dfdc-master/output/dfdc/faces ",
+                     "--face", "scale",
+                     "--size", "224",
+                     "--batch", "32",
+                     "--lr", "1e-5",
+                     "--valint", "500",
+                     "--patience", "10",
+                     "--maxiter", "30000",
+                     "--seed", "41",
+                     "--attention",
+                     "--device", "0"]
+        }
+    ]
+}
